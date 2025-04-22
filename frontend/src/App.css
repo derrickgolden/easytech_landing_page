@@ -1,0 +1,11 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.auth-bd{
+  background-color:#6f6e72;
+  padding-top:3rem
+}
+
