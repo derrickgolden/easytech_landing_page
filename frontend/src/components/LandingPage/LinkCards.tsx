@@ -1,7 +1,7 @@
 
 const LinkCards = () =>{
     const details = [ 
-        {lebal: "CBC and 8.4.4 curriculum schemes", to: "https://easytech.africa/", detail: 0, bg_color: "#",
+        {lebal: "CBC and 8.4.4 curriculum schemes", to: "https://easytech.africa/resources", detail: 0, bg_color: "#",
             exp: "Search and download schemes, teaching plans, exams, past papers and many more."
          },
         {lebal: "Create Quotation", to: "https://easytech-myinvoice.netlify.app/", detail: 0, bg_color: "#",
