@@ -43,9 +43,11 @@ app.use((0, cookie_parser_1.default)());
 const port = process.env.SEVERPORT || 8080;
 app.use("/js", express_1.default.static(path_1.default.join(__dirname, 'dist', 'assets', 'index-TSNK7VKS.js')));
 app.use(express_1.default.static(path_1.default.join(__dirname, 'dist')));
-
+// app.get("/", (req, res) => {
+//   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+// });
 app.get("/", (req, res) => {
-    res.sendFile("path.join(__dirname, 'dist', 'index.html')");
+    res.sendFile(path_1.default.join(__dirname, 'dist', 'index.html'));
 });
 app.use("/user", auth_1.default);
 app.use("/user", upload.single('logo'), authenticateToken_1.authenticateToken, shop_1.default);
